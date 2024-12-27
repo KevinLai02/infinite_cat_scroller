@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import InfiniteScroll from "react-infinite-scroll-component";
 import { getCatImages } from './api';
-import CatOverLordModal from './component/CatOverLordModal';
+import CatOverLordModal from './component/CatOverLordModal/CatOverLordModal';
 
 function App() {
   const [catList, setCatList] = useState<string[]>([])
